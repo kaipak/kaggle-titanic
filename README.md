@@ -1,5 +1,7 @@
 # kaggle-titanic
 
+![Sinking Titanic](images/titanic_sinking_img.jpg?raw=true "Titanic")
+
 This is my (hopefully) well-documented and detailed Jupyter notebook on how I will be tackling my first foray into Kaggle data science competitions. 
 
 ## Competition Description (from Kaggle)
