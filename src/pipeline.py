@@ -21,3 +21,8 @@ def age_cats(df, cut_points, labels):
     df["Age"] = df["Age"].fillna(-0.5)
     df["Age_cat"] = pd.cut(df["Age"], cut_points, labels=labels)
     return df
+
+def attrib_cats(df, orig_cat, new_cat, cut_points, labels):
+    df[orig_cat] = df[orig_cat].fillna(-0.5)
+    df[new_cat] = pd.cut(df[orig_cat], cut_points, labels=labels)
+    return df
